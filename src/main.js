@@ -23,7 +23,7 @@ const woodTexture = textureLoader.load('textures/wood_floor.jpg', (texture) => {
   texture.encoding = THREE.sRGBEncoding;
 });
 
-const grassTexture = textureLoader.load('/textures/pixel_grass.jpg', (texture) => {
+const grassTexture = textureLoader.load('textures/pixel_grass.jpg', (texture) => {
   texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
   texture.repeat.set(2, 2);
   texture.encoding = THREE.sRGBEncoding;
@@ -780,19 +780,19 @@ const loadModels = () => {
   // Load contact section models
   const contactModels = [
     {
-      path: '/models/3d_linkedin_logo.glb',
+      path: 'models/3d_linkedin_logo.glb',
       position: new THREE.Vector3(-2.5, 9.5, 25),
       url: 'https://www.linkedin.com/in/mohammad-labak/',
       scale: 0.5
     },
     {
-      path: '/models/3d_github_logo.glb',
+      path: 'models/3d_github_logo.glb',
       position: new THREE.Vector3(0, 9.5, 25),
       url: 'https://github.com/MohammadLab',
       scale: 0.5
     },
     {
-      path: '/models/email_icon.glb',
+      path: 'models/email_icon.glb',
       position: new THREE.Vector3(2.5, 9.5, 25),
       url: 'mailto:moe.labak@gmail.com',
       scale: 0.5
@@ -864,7 +864,7 @@ const loadModels = () => {
 
   console.log('Loading desk model...');
   loader.load(
-    '/models/desk.glb',
+    'models/desk.glb',
     (gltf) => {
       console.log('Model loaded successfully:', gltf);
       
