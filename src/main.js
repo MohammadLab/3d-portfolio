@@ -17,7 +17,7 @@ document.querySelector('#app').appendChild(renderer.domElement);
 
 // Load textures for floor
 const textureLoader = new THREE.TextureLoader();
-const woodTexture = textureLoader.load('/public/textures/wood_floor.jpg', (texture) => {
+const woodTexture = textureLoader.load('/3d-portfolio/public/textures/wood_floor.jpg', (texture) => {
   texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
   texture.repeat.set(4, 4);
   texture.encoding = THREE.sRGBEncoding;
