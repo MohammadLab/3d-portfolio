@@ -54,7 +54,7 @@ export class AboutCard {
 
     // Load font and create text
     const loader = new FontLoader();
-    loader.load('/fonts/helvetiker_regular.typeface.json', (font) => {
+    loader.load('fonts/helvetiker_regular.typeface.json', (font) => {
       const textGeometry = new TextGeometry('About Mohammad Labak', {
         font: font,
         size: 0.5,
