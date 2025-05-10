@@ -3,7 +3,7 @@ export const unrealProjects = [
     id: 'unreal1',
     name: 'Advanced Movement System',
     description: 'A comprehensive character movement pack leveraging Unreal Engine\'s Blueprint system and animation morphing technology for seamless character movement.',
-    image: '/images/unreal/tps.jpg',
+    image: 'images/unreal/tps.jpg',
     technologies: ['Unreal Engine 5', 'Blueprint', 'Animation Blueprint', 'IK System', 'Physics System'],
     features: [
       'Dynamic Running Mechanics: Speed adjustments based on terrain and player input',
@@ -18,7 +18,7 @@ export const unrealProjects = [
     id: 'unreal2',
     name: 'Horror Map',
     description: 'Step into a chilling world where tension and terror await at every corner. This map combines environmental storytelling with trigger-based events for a suspenseful horror experience.',
-    image: '/images/unreal/rpg.jpg',
+    image: 'images/unreal/rpg.jpg',
     technologies: ['UEFN', 'Verse', 'Blueprint', 'Niagara VFX', 'Audio System'],
     features: [
       'Dynamic Lighting System: Created with Unreal Engine\'s Niagara particle system and Blueprint scripting for real-time lighting changes triggered by player actions',
@@ -31,7 +31,7 @@ export const unrealProjects = [
     id: 'unreal3',
     name: 'Speed Bridges (1V1)',
     description: 'A competitive one-on-one battle across dynamically shifting bridges. Players must outwit their opponent through mastery of combat and navigation.',
-    image: '/images/unreal/vr.jpg',
+    image: 'images/unreal/vr.jpg',
     technologies: ['UEFN', 'Verse', 'Blueprint', 'Physics System'],
     features: [
       'Custom Scoring System: Built with UEFN Verse, tracks kills and objectives for balanced competition',
@@ -44,7 +44,7 @@ export const unrealProjects = [
     id: 'unreal4',
     name: 'The Bridges (4v4v4v4)',
     description: 'A multi-team map designed for strategic coordination and intense gameplay.',
-    image: '/images/unreal/arena.jpg',
+    image: 'images/unreal/arena.jpg',
     technologies: ['UEFN', 'Verse', 'Blueprint', 'Team Management System'],
     features: [
       'Multi-Team Management System: Implemented via UEFN Verse, supports four distinct teams with synchronized objectives',
