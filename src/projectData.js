@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     name: "Orora Invoice Generator",
     description: "A Python-based web application built with Flask, designed to help a logistics company generate invoices for renting warehouse space. The app calculates charges based on the highest number of pallets stored, imported, and exported during the month, and generates the corresponding invoice. This automation reduced the average invoice generation time from 10 hours to just 30 minutes - a 95% reduction in processing time.",
-    image: "/images/projects/project1.jpg",
+    image: "images/projects/project1.jpg",
     category: "Web Development",
     technologies: ["Python", "Flask", "HTML", "CSS", "JavaScript", "CSV"],
     features: [
@@ -20,7 +20,7 @@ export const projects = [
     id: 2,
     name: "TA Marking App",
     description: "A custom-built application designed to simplify and automate the grading process for teaching assistants. The app tracks student marks and utilizes .xml files for data storage.",
-    image: "/images/projects/project2.jpg",
+    image: "images/projects/project2.jpg",
     category: "Education Tools",
     technologies: ["HTML", "Python", "XML"],
     features: [
@@ -36,7 +36,7 @@ export const projects = [
     id: 3,
     name: "Storage Tracking App for Logistics",
     description: "An application developed for a logistics company to manage product imports, exports, and track the number of pallets used in each shipment. Built with a cloud database for real-time data access and scalability.",
-    image: "/images/projects/project3.jpg",
+    image: "images/projects/project3.jpg",
     category: "Enterprise Software",
     technologies: ["Java", "Cloud Database"],
     features: [
